@@ -7,11 +7,20 @@ You will need:
 * A USB-C cable
 * Unity version 2020.3 or higher
 
+[Download Unity](https://unity.com/download)
+
 To set up the project:
 1. Clone the repo
 2. In Unity Hub, click "Add" and select the "JARSUS" folder
 3. You can now launch JARSUS
 4. The default scene should be "FinalProject", but if it doesn't automatically open, it's under "Assets/Scenes/FinalProject". Open that.
+
+To run the project on the Quest 2:
+1. Plug in the Oculus Quest 2 using the USB-C cable
+2. Accept the "allow computer" popup
+3. Follow [these instructions](https://developer.oculus.com/documentation/unity/unity-build/) to build and run the project
+
+More information about the [Interaction SDK here](https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/)
 
 # What all is in the Hierarchy
 **Cylinder** is the basis for the file browser.
